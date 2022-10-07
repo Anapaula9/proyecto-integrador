@@ -7,51 +7,234 @@
         <title>proyecto html</title>
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="./css/estilos.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+            .texto1 {
+                font-style: normal;
+                font-weight: bold;
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+            .box {
+                width: 300px;
+                height: 500px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 15px;
+                border-style: solid;
+                border-color: rgb(133, 140, 146);
+                border-width: 1px;
+                text-align: left;
+
+            }
+            .box2 {
+                width: 300px;
+                height: 500px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 15px;
+                border-style: solid;
+                border-color: rgb(133, 140, 146);
+                border-width: 1px;
+                text-align:left ;
+            }
+            .box3 {
+                width: 300px;
+                height: 500px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 15px;
+                border-style: solid;
+                border-color: rgb(133, 140, 146);
+                border-width: 1px;
+                text-align: left;
+            }
+            .link {
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+            .link2 {
+                color: green;
+                text-decoration: none;
+                font-size: 18px;
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+            .titulo1 {
+                font-size: 18px;
+                font-family: 'Source Sans Pro', sans-serif;
+                text-align: right;
+            }
+            .texto2 {
+                font-size: 17px;
+                font-family: 'Source Sans Pro', sans-serif;
+                text-align: right;             
+            }
+            .boton1 {
+                font-size: 14px;
+                font-family: 'Source Sans Pro', sans-serif;
+                text-decoration: none;
+                text-align: center;
+                color: rgb(0, 0, 0);
+                border-style: solid;
+                border-width: 1px;
+                border-color: rgb(5, 5, 5);
+                display: inline-block;
+                width: 150px;
+                height: 30px;
+                padding-top: 3px;
+                padding-bottom: 0px;
+            }
+            .boton2 {
+                font-size: 14px;
+                font-family: 'Source Sans Pro', sans-serif;
+                text-decoration: none;  
+                text-align: center;
+                color: rgb(255, 255, 255);
+                border-style: solid;
+                border-width: 1px;
+                border-color: green;
+                background-color: green;
+                display: inline-block;
+                width: 150px;
+                height: 30px;
+                padding-top: 3px;
+                padding-bottom: 0px;
+            }
+            .titulo2 {
+                font-size: 16px;
+                font-family: 'Source Sans Pro', sans-serif;
+                text-align: center;
+            }
+            .titulo3 {
+                font-size: 19px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: bold;
+                text-align: center;
+            }
+            .titulo4 {
+                font-size: 19px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: bold;
+                text-align: right;
+            }
+            .texto3 {
+                font-size: 16px;
+                font-family: 'Source Sans Pro', sans-serif;
+                text-align: right;
+            }
+            .link3 {
+                font-size: 16px;
+                font-family: 'Source Sans Pro', sans-serif;
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                border-style: solid;
+                border-width: 1px;
+                border-color: rgb(5, 5, 5);
+                text-align: right;
+            }
+            .tabla {
+                font-size: 16px;
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+            .titulo5 {
+                font-size: 16px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: normal;
+                text-align: center;
+            }
+            .titulo6 {
+                font-size: 19px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: bold;
+                text-align: center;
+            }
+            .texto4 {
+                font-size: 16px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: normal;
+                text-align: center;
+            }
+            .formulario1 {
+                font-size: 15px;
+                font-family: 'Source Sans Pro', sans-serif;
+                text-align: center;
+            }
+            .formulario2 {
+                font-size: 15px;
+                font-family: 'Source Sans Pro', sans-serif;
+                text-align: center;
+            }
+            .textoform {
+                font-size: 15px;
+                font-family: 'Source Sans Pro', sans-serif;
+                text-align: left;
+            }
+            .aclaracion {
+                font-size: 15px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: normal;
+            }
+            .enviar {
+                font-family: 'Source Sans Pro', sans-serif;
+                text-align: center;
+            }
+            .piedepag {
+                font-size: 15px;
+                font-family: 'Source Sans Pro', sans-serif;
+                text-decoration: none;
+            }
+            .imagen1 {
+                width: 100%;
+            }
+            .imagen2 {
+                width: 50%;
+            }
+        </style>
+        <!--cambiar color fuente a blanco en boton 1 y 2 ambos blancos (boton 2 fondo verde), tmbn en texto2 y titulo1-->
+        <!-- cambiar color .enviar a blanco (el boton es verde)-->
+        <!-- cabiar color piedepag a blanco (tiene fondo azul)-->
     </head>
     <body>
         <header>
-            <div>
+            <div class="texto1">
                 <img src="./assets/imagenes/codoacodo.png" alt="Logo de codo a codo" loading="lazy"> 
                 <h2>Conf. Bs. As.</h2>
             </div>
             <div>
                 <nav>
-                
-                    <a href="#">La Conferencia</a>
-                    <a href="./paginas/los_oradores.html">Los Oradores</a>
-                    <a href="./paginas/lugaryfecha.html">El lugar y la fecha</a>
-                    <a href="./paginas/contacto.html">Conviértete en orador</a>
-                    <a href="./paginas/comprar_ticket.html">Comprar tickets</a>
+                    <a class="link" href="#">La Conferencia</a>
+                    <a class="link" href="./paginas/los_oradores.html">Los Oradores</a>
+                    <a class="link" href="./paginas/lugaryfecha.html">El lugar y la fecha</a>
+                    <a class="link" href="./paginas/contacto.html">Conviértete en orador</a>
+                    <a class="link2" href="./paginas/comprar_ticket.html">Comprar tickets</a>
                 </nav>
             </div>
         </header>
         <main>
             <section>
-                <img src="./assets/imagenes/ba1.jpg" alt="Imagen de Buenos Aires Palacio">
-                <h1>Conf Bs As</h1>
-                <p>Bs As llega por primera vez a Argentina. Un evento para compartir con   <br>    nuestra comunidad el conocimiento y experiencia de los expertos que   <br>     están creando el futuro de Internet. Ven a conocer a miembros del  <br>   evento, a otros estudiantes de Codo a Codo y los oradores de primer   <br>   nivel que tenemos para ti. Te esperamos!</p>
-                <a href="./paginas/contacto.html">Quiero ser orador</a>
-                <a href="./paginas/comprar_ticket.html">Comprar tickets</a>
+                <img class="imagen1" src="./assets/imagenes/ba1.jpg" alt="Imagen de Buenos Aires Palacio">
+                <h1 class="titulo1">Conf Bs As</h1>
+                <p class="texto2">Bs As llega por primera vez a Argentina. Un evento para compartir con   <br>    nuestra comunidad el conocimiento y experiencia de los expertos que   <br>     están creando el futuro de Internet. Ven a conocer a miembros del  <br>   evento, a otros estudiantes de Codo a Codo y los oradores de primer   <br>   nivel que tenemos para ti. Te esperamos!</p>
+                <a class="boton1" href="./paginas/contacto.html">Quiero ser orador</a>
+                <a class="boton2" href="./paginas/comprar_ticket.html">Comprar tickets</a>
             </section>
         </main>
       <section>
-        <P>CONOCE A LOS</P>
-        <h1>ORADORES</h1>
-        <div>
+        <P class="titulo2">CONOCE A LOS</P>
+        <h1 class="titulo3">ORADORES</h1>
+        <div class="box">
             <img src="./assets/imagenes/steve.jpg" alt="Foto de Steve Jobs" loading="lazy" width="300">
             <h1>Steve Jobs</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis officiis necessitatibus ad sit nemo hic quaerat quisquam veritatis voluptatum ipsam voluptas magnam dolorum quibusdam, blanditiis quod soluta distinctio, maiores pariatur.</p>
         </div>
         <br>
-        <br>
-        <div>
+        <div class="box2">
             <img src="./assets/imagenes/bill.jpg" alt="Foto de Bill Gates" loading="lazy" width="300">
             <h1>Bill Gates</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis officiis necessitatibus ad sit nemo hic quaerat quisquam veritatis voluptatum ipsam voluptas magnam dolorum quibusdam, blanditiis quod soluta distinctio, maiores pariatur.</p>
         </div>
         <br>
         <br>
-        <div>
+        <br>
+        <div class="box3">
             <img src="./assets/imagenes/ada.jpeg" alt="Foto de Ada Lovelace" loading="lazy" width="300">
             <h1>Ada Lovelace</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis officiis necessitatibus ad sit nemo hic quaerat quisquam veritatis voluptatum ipsam voluptas magnam dolorum quibusdam, blanditiis quod soluta distinctio, maiores pariatur.</p>
@@ -60,18 +243,18 @@
         <br>
       </section>
       <section>
-            <img src="./assets/imagenes/honolulu.jpg" alt="Foto de playa" loading="lazy">
+            <img class="imagen2" src="./assets/imagenes/honolulu.jpg" alt="Foto de playa" loading="lazy">           
             <div>
-                <h3>Bs As - Octubre</h3>
-                <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la  <br> más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área  <br> urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-  <br> condado consolidada que cubre toda la ciudad (aproximadamente 600km2 de superficie).</p>
-                <a href="">Conocé más</a>
+                <h3 class="titulo4">Bs As - Octubre</h3>
+                <p class="texto3">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la  <br> más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área  <br> urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-  <br> condado consolidada que cubre toda la ciudad (aproximadamente 600km2 de superficie).</p>
+                <a class="link3" href="">Conocé más</a>
             </div>
       </section>
       <br>
       <br>
       <section>
         <!--formulario-->
-        <table>
+        <table class="tabla">
             <thead>
                 <tr>
                     <th>Orador</th>
@@ -102,20 +285,20 @@
       <br>
       <br>
       <section>
-        <h4>CONVIÉRTETE EN UN</h4>
-        <h1>ORADOR</h1>
-        <h3>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</h3>
+        <h4 class="titulo5">CONVIÉRTETE EN UN</h4>
+        <h1 class="titulo6">ORADOR</h1>
+        <h3 class="texto4">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</h3>
         <form action="">
-            <div>
+            <div class="formulario1">
                 <input type="text" placeholder="Nombre">
                 <input type="text" placeholder="Apellido">
             </div>
-            <div>
-                <textarea name="" id="" cols="45" rows="10" placeholder="Sobre qué quieres hablar?"></textarea>
+            <div class="formulario2">
+                <textarea class="textoform" name="" id="" cols="45" rows="10" placeholder="Sobre qué quieres hablar?"></textarea>
             </div>
-            <p>Recuerda incluir un título para tu charla</p>
+            <p class="aclaracion">Recuerda incluir un título para tu charla</p>
             <div>
-                <input type="submit">
+                <input class="enviar" type="submit">
             </div>
             
         </form>
@@ -124,14 +307,15 @@
       <br>
       <br>
       <footer>
-        <a href="">Preguntas frecuentes</a>
-        <a href="">Contáctanos</a>
-        <a href="">Prensa</a>
-        <a href="">Conferencias</a>
-        <a href="">Términos y condiciones</a>
-        <a href="">Privacidad</a>
-        <a href="">Estudiantes</a>
+        <a class="piedepag" href="">Preguntas frecuentes</a>
+        <a class="piedepag" href="">Contáctanos</a>
+        <a class="piedepag" href="">Prensa</a>
+        <a class="piedepag" href="">Conferencias</a>
+        <a class="piedepag" href="">Términos y condiciones</a>
+        <a class="piedepag" href="">Privacidad</a>
+        <a class="piedepag" href="">Estudiantes</a>
       </footer>
+      
        
 
     </body>
