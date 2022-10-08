@@ -1,8 +1,25 @@
 header{
-    background-color: rgb(51, 58, 64);
+    background-image: url("ba1.jpg");
+    background-color: rgba(51, 58, 64);
+    height: 12vh;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999px; background-color:  rgba(51, 58, 64);
 }
 .texto1 {
 color: white;
+}
+.fondito{
+    background-color: rgb(51, 58, 64);
+    height: 68vh;
+}
+.imagen1{
+    width: 100%;
+}
+.imagen2{
+    width: 50%;
 }
 
 
