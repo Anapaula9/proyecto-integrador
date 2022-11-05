@@ -5,15 +5,189 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comprar tickets</title>
+    <link rel="stylesheet" href="../proyecto.html">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/estilos2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+            .texto1 {
+                font-style: normal;
+                font-weight: lighter;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 10px;
+            }
+            .link {
+                color: white;
+                text-decoration: none;
+                font-size: 15px;
+                font-family: 'Source Sans Pro', sans-serif;
+                position: relative;
+                left: 670px;
+                bottom: 100px;
+            }
+            .link2 {
+                color: green;
+                text-decoration: none;
+                font-size: 15px;
+                font-family: 'Source Sans Pro', sans-serif;
+                position: relative;
+                left: 670px;
+                bottom: 100px;
+            }
+            .logo{
+                width: 10%;
+            }
+            .titulologo{
+                position: relative;
+                left: 150px;
+                bottom: 75px;
+            }
+            .box1 {
+                width: 200px;
+                height: 200px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 10px;
+                border-style: solid;
+                border-color: rgb(0, 88, 165);
+                border-width: 1px;
+                text-align: center;
+                
+
+            }
+            .box2 {
+                width: 200px;
+                height: 200px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 10px;
+                border-style: solid;
+                border-color: rgb(124, 201, 245);
+                border-width: 1px;
+                text-align: center;
+                
+            }
+            .box3 {
+                width: 200px;
+                height: 200px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 10px;
+                border-style: solid;
+                border-color: rgb(247, 150, 5);
+                border-width: 1px;
+                text-align: center;
+                
+            }
+            .titulo1 {
+                font-size: 16px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: normal;
+                text-align: center;
+            }
+            .titulo2 {
+                font-size: 25px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: bold;
+                text-align: center;
+            }
+            .formulario1 {
+                font-size: 15px;
+                font-family: 'Source Sans Pro', sans-serif;
+                text-align: center;
+            }
+            .piedepag {
+                color: white;
+                text-decoration: none;
+                font-size: 15px;
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+            
+    </style>
 </head>
 <body>
-    <img src="" alt="Logo de codo a codo">
-    <h2>Conf. Bs. As.</h2>
-    <a href="../proyecto.html">La Conferencia</a>
-    <a href="./los_oradores.html">Los Oradores</a>
-    <a href="./lugaryfecha.html">El lugar y la fecha</a>
-    <a href="./contacto.html">Conviértete en orador</a>
-    <a href="#">Comprar tickets</a>
+    <header>
+        <div class="texto1">
+            <img class="logo" src="../assets/imagenes/codoacodo.png" alt="Logo de codo a codo" loading="lazy"> 
+            <h2 class="titulologo" >Conf. Bs. As.</h2>
+        </div>
+        <div>
+            <nav>
+                <a class="link" href="../proyecto.html">La Conferencia</a>
+                <a class="link" href="./paginas/los_oradores.html">Los Oradores</a>
+                <a class="link" href="./paginas/lugaryfecha.html">El lugar y la fecha</a>
+                <a class="link" href="./paginas/contacto.html">Conviértete en orador</a>
+                <a class="link2" href="#">Comprar tickets</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="box1">
+                <h1>Estudiante</h1>
+                <br>
+                <p>Tiene un descuento</p>
+                <br>
+                <h1>80%</h1>
+                <br>
+                <p>*presentar documentación</p>
+            </div>
+            <div class="box2">
+                <h1>Trainee</h1>
+                <br>
+                <p>Tiene un descuento</p>
+                <br>
+                <h1>50%</h1>
+                <br>
+                <p>*presentar documentación</p>
+            </div>
+            <div class="box3">
+                <h1>Junior</h1>
+                <br>
+                <p>Tiene un descuento</p>
+                <br>
+                <h1>15%</h1>
+                <br>
+                <p>*presentar documentación</p>
+            </div>
+            
+        </section>
+    </main>
+    <section>
+        <h4 class="titulo1">VENTA</h4>
+        <h1 class="titulo2">VALOR DE TICKET $200</h1>
+        <form action="">
+            <div class="formulario1">
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Apellido">
+                <br>
+                <input type="text" placeholder="Correo">
+                <p class="cantidad">Cantidad</p>
+                <input type="text" placeholder="cantidad">
+                <p class="categoria">Categoria</p>
+                <input type="text" placeholder="Estudiante">
+                <!-- aca hay que poner las opciones desplegbles con estudiante, trainee o junior-->
+                <br>
+                <input type="text" placeholder="Total a Pagar: $">
+                <!--poner en color celeste el fonde y azul la letra-->
+            </div>
+            <div>
+                <input class= "Borrar" type="reset" value="Borrar">
+                <input class="Resumen" type="button" value="Resumen">
+                <!-- poner verde los botones, letra blanca-->
+            </div>
+        </form>
+       
+    </section>
+
+
+    <br>
+      <footer>
+        <a class="piedepag" href="">Preguntas <br> frecuentes</a>
+        <a class="piedepag" href="">Contáctanos</a>
+        <a class="piedepag" href="">Prensa</a>
+        <a class="piedepag" href="">Conferencias</a>
+        <a class="piedepag" href="">Términos y condiciones</a>
+        <a class="piedepag" href="">Privacidad</a>
+        <a class="piedepag" href="">Estudiantes</a>
+      </footer>
     
 </body>
 </html>
